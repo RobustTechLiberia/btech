@@ -25,7 +25,7 @@ class UpdateSection extends React.Component {
             />
             <div className="p-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
                   college of science &amp; technology <br /> B.S.C in
                   information technology <br />
                 </h5>
@@ -42,7 +42,7 @@ class UpdateSection extends React.Component {
             />
             <div className="p-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-4xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
                   college of health science <br /> B.S.C in Health Science{" "}
                   <br />
                 </h5>
@@ -59,7 +59,7 @@ class UpdateSection extends React.Component {
             />
             <div className="p-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
                   college of health science <br /> professional diploma <br />
                 </h5>
               </a>

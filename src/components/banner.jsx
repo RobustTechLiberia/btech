@@ -18,11 +18,11 @@ class Banner extends React.Component {
             <h1 className="text-white font-extrabold uppercase text-5xl sm:text-4xl md:text-6xl lg:text-6xl leading-tight">
               bushrod college of <br />
               science &amp; technology
-              <br />
+              {/* <br />
               <p className="font-sans text-center text-sm font-light">
                 accredited by the commission for higher education &amp; board of
                 midwifery
-              </p>
+              </p> */}
             </h1>
           </div>
         </div>
