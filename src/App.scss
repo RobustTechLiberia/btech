@@ -1,0 +1,20 @@
+// variables
+$bg-img: url("./images/1785753245749.jpg"); // adjust path if needed
+$bg-size: cover;
+$bg-repeat: no-repeat;
+$linear: linear-gradient(to right,
+        #001f3f 40%, // solid navy on left
+        rgba(0, 31, 63, 0.7) 65%, // fade transition
+        transparent 100% // fully clear on right
+    );
+
+// section styles
+#section-content {
+    
+    background-image: $linear,
+    #{$bg-img}; 
+    background-size: $bg-size;
+    background-repeat: $bg-repeat;
+    background-position: center;
+    background-blend-mode: normal;
+}
