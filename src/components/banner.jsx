@@ -14,10 +14,15 @@ class Banner extends React.Component {
           <div className="absolute inset-0 bg-black/30 z-10"></div>
           <div className="absolute inset-0 z-20 bg-linear-to-r from-[#04112B] via-[#081C3F] to-transparent"></div>
           {/* Heading */}
-          <div className="absolute inset-0 z-30 flex md:justify-center  justify-center md:items-center md:mx-32 lg:mx-32 mx-8 md:pt-5 mt-20 text-center md:text-left px-4">
+          <div className="absolute inset-0 z-30 flex md:justify-center  justify-center md:items-center md:mx-32 lg:mx-32 mx-8 md:pt-5 mt-10 text-center md:text-left px-4">
             <h1 className="text-white font-extrabold uppercase text-5xl sm:text-4xl md:text-6xl lg:text-6xl leading-tight">
               bushrod college of <br />
               science &amp; technology
+              <br />
+              <p className="font-sans text-center text-sm font-light">
+                accredited by the commission for higher education &amp; board of
+                midwifery
+              </p>
             </h1>
           </div>
         </div>
