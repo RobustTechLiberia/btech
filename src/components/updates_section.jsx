@@ -8,7 +8,7 @@ class UpdateSection extends React.Component {
     return (
       <>
         {/* Top heading */}
-        <div className="flex flex-nowrap md:justify-start lg:justify-start md:mt-5 mt-10 bg-white h-auto md:mx-20 lg:mx-20 mx-10">
+        <div className="flex flex-nowrap md:justify-start lg:justify-start md:mt-5 mt-10 bg-white h-auto md:mx-10 lg:mx-10 mx-10">
           <h1 className="md:text-5xl mx-8 text-4xl text-left lg:text-5xl sm:text-xl font-sans font-bold uppercase text-gray-900 md:py-10 py-5 md:mx-10">
             courses
           </h1>
