@@ -5,6 +5,7 @@ import Section from "../components/section";
 import UpdateSection from "../components/updates_section";
 import ContentSection from "../components/content-section";
 import MeetFounder from "../components/founder";
+import Accredit from "../components/accredition";
 
 class Home extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Home extends React.Component {
         <UpdateSection />
         <ContentSection />
         <MeetFounder/>
+        <Accredit/>
       </>
     );
   }
