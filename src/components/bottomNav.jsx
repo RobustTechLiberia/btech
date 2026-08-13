@@ -5,7 +5,7 @@ class BottomNav extends React.Component {
     return (
       <>
         <div className="flex flex-nowrap justify-evenly py-3 md:py-8 md:mt-0 mt-10 mb-8">
-          <ul className="flex md:flex-nowrap md:mt-10 text-sm md:text-lg  flex-wrap justify-evenly md:gap-50 lg:gap-32 md:mx-20  gap-0">
+          <ul className="flex md:flex-nowrap md:mt-10 text-lg md:text-lg  flex-wrap justify-evenly md:gap-50 lg:gap-32 md:mx-20  gap-0">
             <li>
               <a
                 href="http://"
