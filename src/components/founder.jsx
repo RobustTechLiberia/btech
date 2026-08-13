@@ -5,7 +5,7 @@ class MeetFounder extends React.Component {
   render() {
     return (
       <>
-        <div className="flex flex-wrap justify-start md:mt-0 md:gap-5 lg:gap-5 lg:mt-0 mt-0 md:mx-0 lg:mx-0 mx-0 h-96 bg-white">
+        <div className="flex flex-wrap justify-start md:mt-0 md:gap-5 lg:gap-5 lg:mt-0 mt-0 md:mx-5 lg:mx-5 mx-0 h-96 bg-white">
           <div className="w-auto">
             <div className="md:w-3xl lg:w-3xl h-auto object-cover">
               <img src={founder} alt="" className="w-auto h-auto" />
