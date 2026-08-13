@@ -11,11 +11,12 @@ class Section extends React.Component {
             </h1>
           </div>
           <div className="w-xl h-auto md:mt-5 mb-20">
-            <p className="font-sans text-lg font-normal text-gray-900 md:mx-5 mx-5 mt-5 mb-10 ">
-              At Bushrod College of Science & Technology,whether pursuing higher studies or entering the
-              workforce, our graduates carry forward the values of excellence,
-              integrity, and impact. Join us in shaping a brighter future for
-              Liberia through education, innovation, and service.
+            <p className="font-sans text-lg font-normal text-gray-900 md:mx-5 mx-5 mt-5 mb-10 md:text-justify lg:text-justify text-left ">
+              At Bushrod College of Science & Technology,whether pursuing higher
+              studies or entering the workforce, our graduates carry forward the
+              values of excellence, integrity, and impact. Join us in shaping a
+              brighter future for Liberia through education, innovation, and
+              service.
             </p>
             <br />
             <div className="flex flex-wrap justify-center h-auto">
