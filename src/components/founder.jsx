@@ -8,7 +8,11 @@ class MeetFounder extends React.Component {
         <div className="flex flex-wrap justify-start md:mt-0 md:gap-0 lg:gap-0 lg:mt-0 mt-0 md:mx-5 lg:mx-5 mx-0 h-auto bg-white">
           <div className="w-auto">
             <div className="md:w-xl lg:w-xl h-auto object-cover">
-              <img src={founder} alt="" className="w-auto h-auto" />
+              <img
+                src={founder}
+                alt=""
+                className="w-auto h-auto cursor-pointer"
+              />
             </div>
           </div>
           <div className="md:w-xl lg:w-xl md:bg-gray-100 lg:bg-gray-200  h-96 bg-white">
