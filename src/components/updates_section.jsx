@@ -8,10 +8,10 @@ class UpdateSection extends React.Component {
     return (
       <>
         {/* Top heading */}
-        <div className="flex flex-nowrap md:justify-start lg:justify-start md:mt-5 mt-10 bg-white h-auto md:mx-20 lg:mx-20 mx-10">
-          <h1 className="md:text-5xl mx-8 text-4xl text-left lg:text-5xl sm:text-xl font-sans font-bold uppercase text-gray-900 md:py-10 py-5 md:mx-10">
+        <div className="flex flex-nowrap md:justify-start lg:justify-start md:mt-20 mt-10 bg-white h-auto md:mx-20 lg:mx-20 mx-10">
+          {/* <h1 className="md:text-5xl mx-8 text-4xl text-left lg:text-5xl sm:text-xl font-sans font-bold uppercase text-gray-900 md:py-10 py-5 md:mx-10">
             courses
-          </h1>
+          </h1> */}
         </div>
 
         {/* Content cards */}
@@ -19,13 +19,13 @@ class UpdateSection extends React.Component {
           {/* 1 */}
           <div className="bg-white block max-w-sm border-none border-default rounded-none shadow-none">
             <img
-              className="rounded-none h-80 w-full object-cover cursor-pointer"
+              className="rounded-none h-80 md:w-full w-xl object-cover cursor-pointer"
               src={img1}
               alt=""
             />
-            <div className="p-3 text-left">
+            <div className="my-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-3xl md:text-3xl lg:text-3xl font-semibold text-[#253C6D]">
                   college of science &amp; technology <br /> B.S.C in
                   information technology <br />
                 </h5>
@@ -36,13 +36,13 @@ class UpdateSection extends React.Component {
           {/* 2 */}
           <div className="bg-white block max-w-sm border-none border-default rounded-none shadow-none">
             <img
-              className="rounded-none h-80 w-full object-cover cursor-pointer"
+              className="rounded-none h-80 md:w-full w-xl object-cover cursor-pointer"
               src={img2}
               alt=""
             />
-            <div className="p-3 text-left">
+            <div className="my-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-3xl md:text-3xl lg:text-3xl font-semibold text-[#253C6D]">
                   college of health science <br /> B.S.C in Health Science{" "}
                   <br />
                 </h5>
@@ -53,13 +53,13 @@ class UpdateSection extends React.Component {
           {/* 3 */}
           <div className="bg-neutral-primary-soft block max-w-sm border-none border-default rounded-none shadow-none">
             <img
-              className="rounded-none h-80 cursor-pointer w-full object-cover"
+              className="rounded-none h-80 cursor-pointer md:w-full w-xl object-cover"
               src={img3}
               alt=""
             />
-            <div className="p-3 text-left">
+            <div className="my-3 text-left">
               <a href="#">
-                <h5 className="mt-3 mb-6 text-left capitalize text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-950">
+                <h5 className="mt-3 mb-6 text-left capitalize text-3xl md:text-3xl lg:text-3xl font-semibold text-[#253C6D]">
                   college of health science <br /> professional diploma <br />
                 </h5>
               </a>

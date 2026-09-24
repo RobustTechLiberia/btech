@@ -6,6 +6,7 @@ import UpdateSection from "../components/updates_section";
 import ContentSection from "../components/content-section";
 import MeetFounder from "../components/founder";
 import Accredit from "../components/accredition";
+import Annoucement from "../components/announcement_section";
 
 class Home extends React.Component {
   render() {
@@ -16,8 +17,9 @@ class Home extends React.Component {
         <Section />
         <UpdateSection />
         <ContentSection />
-        <MeetFounder/>
-        <Accredit/>
+        <MeetFounder />
+        <Accredit />
+        <Annoucement />
       </>
     );
   }
