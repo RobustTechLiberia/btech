@@ -6,7 +6,7 @@ class Accredit extends React.Component {
   render() {
     return (
       <>
-        <div className="flex flex-col justify-center items-center bg-white md:h-auto h-auto md:mt-32 mt-10">
+        <div className="flex flex-col justify-center items-center bg-white md:h-auto h-auto md:pt-20 my-28 mt-10">
           <h1 className="text-center font-sans font-bold text-4xl text-[#253C6D] uppercase">
             accreditation
           </h1>
