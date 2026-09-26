@@ -10,7 +10,7 @@ class Accredit extends React.Component {
           <h1 className="text-center font-sans font-bold text-4xl text-[#253C6D] uppercase">
             accreditation
           </h1>
-          <p className="text-center md:text-xl text-2xl font-sans text-md text-900 mt-8 md:mx-auto mx-8 md:w-xl md:py-5 py-5 lg:py-5 lg:w-xl">
+          <p className="text-center md:text-xl text-xl md:break-all break-all font-sans text-md text-900 mt-8 md:mx-auto mx-8 md:w-xl md:py-5 py-5 lg:py-5 lg:w-xl">
             Bushrod College of Science & Technology is working towards ensuring
             our programs meet national and international standards
           </p>

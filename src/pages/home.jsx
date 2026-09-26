@@ -7,6 +7,8 @@ import ContentSection from "../components/content-section";
 import MeetFounder from "../components/founder";
 import Accredit from "../components/accredition";
 import Annoucement from "../components/announcement_section";
+import Notice from "../components/notice";
+import Footer from "../components/footer";
 
 class Home extends React.Component {
   render() {
@@ -20,6 +22,8 @@ class Home extends React.Component {
         <MeetFounder />
         <Accredit />
         <Annoucement />
+        <Notice />
+        <Footer/>
       </>
     );
   }

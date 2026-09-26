@@ -1,9 +1,11 @@
 import React from "react";
+// import Notice from "../components/notice";
 
 class TopNav extends React.Component {
   render() {
     return (
       <>
+        {/* <Notice /> */}
         <div className="flex flex-nowrap justify-end md:h-auto bg-white">
           <a
             href="http://"

@@ -21,11 +21,11 @@ class MeetFounder extends React.Component {
               <br />
               dr. edward forh
             </h1>
-            <p className="font-sans  md:w-lg lg:w-xl text-900  lg:text-lg md:text-xl text-2xl  mt-10 md:text-justify text-center md:mx-10">
+            <p className="font-sans  md:w-lg lg:w-xl md:break-all break-all text-900  lg:text-lg md:text-xl text-xl  mt-10 md:text-justify text-center md:mx-10">
               A Liberian politician and educator who served as Representative
-              for Montserrado County District #16 (formerly District #12) from
-              2005 to 2017. He retired from legislative politics in November
-              2025 but remains active in community development and education.
+              for Montserrado County District #16. He retired from legislative
+              politics in November 2025 but remains active in community
+              development and education.
             </p>
           </div>
         </div>

@@ -5,13 +5,13 @@ class Section extends React.Component {
     return (
       <>
         <div className="flex flex-wrap justify-evenly gap-5 md:mx-2 lg:mx-2 bg-yellow-500 md:h-96 h-auto">
-          <div className="h-auto md:w-auto  md:mt-5">
+          <div className="h-auto md:w-auto w-auto  md:mt-5">
             <h1 className="md:text-5xl text-5xl mx-8 mt-10 text-900 capitalize md:w-xl font-sans font-semibold">
               academic year 2026 <br /> admission is open
             </h1>
           </div>
           <div className="w-xl h-auto md:mt-5 mb-20">
-            <p className="font-sans md:text-lg lg:text-lg text-2xl font-normal text-gray-800 md:mx-5 mx-5 mt-5 mb-10 md:text-justify lg:text-justify text-left ">
+            <p className="font-sans md:text-lg lg:text-lg md:break-all break-all text-xl font-normal text-gray-800 md:mx-5 mx-5 mt-5 mb-10 md:text-justify lg:text-justify text-left ">
               At Bushrod College of Science & Technology,whether pursuing higher
               studies or entering the workforce, our graduates carry forward the
               values of excellence, integrity, and impact. Join us in shaping a

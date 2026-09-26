@@ -6,13 +6,15 @@ class ContentSection extends React.Component {
     return (
       <>
         <div
-          className="h-96 mt-20 object-cover bg-blend-overlay"
+          className="h-96 mt-20 object-cover bg-blend-overlay md:mx-2 mx-1"
           id="section-content"
         >
-          <h1 className="text-white font-sans font-bold text-5xl w-lg md:mx-32 mx-10 pt-10 md:text-5xl uppercase lg:text-5xl justify-center md:justify-start md:items-start">
-            <span className="text-center md:mx-32 my-20 mx-8">BTECH</span>
+          <h1 className="text-white font-sans font-bold text-5xl w-auto md:mx-44 mx-10 pt-10 md:text-5xl uppercase lg:text-5xl justify-center md:justify-start md:items-start">
+            <span className="text-center md:mx-32   my-32 break-all mx-8">
+              BTECH
+            </span>
             <br />
-            <span className="py-20">admission + entrance</span>
+            <span className="py-20  mx-8">admission + entrance</span>
           </h1>
           <br />
           <div className="md:mt-8 lg:mt-8">

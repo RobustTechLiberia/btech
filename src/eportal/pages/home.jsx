@@ -1,10 +1,10 @@
 import React from "react";
-import "../../../App.scss";
+// import "../../../App.scss";
 
-class Homepage extends React.Component {
+class Eportal extends React.Component {
   render() {
     return <></>;
   }
 }
 
-export default Homepage;
+export default Eportal;
