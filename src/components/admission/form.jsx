@@ -7,7 +7,7 @@ class AdmissionForm extends React.Component {
         <div className="bg-white flex flex-wrap md:justify-end md:items-end  md:h-auto justify-center items-center">
           <div className="md:w-lg md:mx-20 w-full bg-white md:h-auto h-auto md:my-2 border-none">
             <div className="flex flex-wrap justify-center items-center py-2 bg-white text-center text-[#253C6D] font-bold text-4xl capitalize">
-              get admitted now
+              get admission
             </div>
             <div className="py-3 font-sans text-center text-gray-800 md:mx-10 mx-3">
               20% discount on admission as a student of Bushrod College of

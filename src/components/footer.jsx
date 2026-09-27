@@ -15,12 +15,6 @@ class Footer extends Component {
       <FlowbiteFooter container>
         <div className="w-full text-center md:h-96 h-auto">
           <div className="w-full md:justify-end sm:flex sm:items- sm:justify-between">
-            {/* <img
-              src={logo}
-              alt=""
-              srcset=""
-              className="md:w-28 w-auto h-auto"
-            /> */}
             <FooterLinkGroup className="md:mt-80 mt-80">
               <FooterLink
                 href="#"
