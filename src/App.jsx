@@ -9,6 +9,8 @@ class App extends React.Component {
       <>
         <BrowserRouter>
           <Routes>
+            {/* Maps the root URL to the Home component so the site isn't blank on load */}
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/eportal" element={<Eportal />} />
           </Routes>
