@@ -27,7 +27,7 @@ class Footer extends React.Component {
             <div className="w-full md:justify-end lg:justify-end md:items-end lg:items-end bg-white sm:flex sm:items-center sm:justify-between"></div>
 
             {/* social media icons */}
-            <div className="flex flex-wrap md:justify-end md:items-end lg:justify-end lg:items-end justify-center items-center gap-3 p-4 bg-white">
+            <div className="flex flex-wrap md:justify-end md:mt-0 mt-20 md:items-end lg:justify-end lg:items-end justify-center items-center gap-3 p-4 bg-white">
               <a
                 href="https://facebook.com"
                 target="_blank"
@@ -53,7 +53,7 @@ class Footer extends React.Component {
                 <FaLinkedinIn size={24} />
               </a>
 
-              <FooterLinkGroup className="md:mt-80 mt-10">
+              <FooterLinkGroup className="md:mt-80 mt-80">
                 <FooterLink
                   href="#"
                   className="text-[#253C6D] md:text-lg font-bold uppercase"
