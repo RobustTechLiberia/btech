@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../images/1785769570010.jpg";
 import {
   Footer as FlowbiteFooter,
   FooterBrand,
@@ -19,8 +18,11 @@ import {
 class Footer extends React.Component {
   render() {
     return (
-      <FlowbiteFooter container>
-        <div className="w-full text-center md:h-96 h-auto">
+      <FlowbiteFooter
+        container
+        className="bg-white rounded-none shadow-none p-0"
+      >
+        <div className="w-full text-center md:h-96 h-auto bg-white">
           <div className="md:w-auto w-auto bg-white h-auto">
             <div className="w-full md:justify-end lg:justify-end md:items-end lg:items-end bg-white sm:flex sm:items-center sm:justify-between"></div>
 
@@ -42,22 +44,6 @@ class Footer extends React.Component {
               >
                 <FaInstagram size={26} />
               </a>
-              {/* <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
-              >
-                <FaYoutube size={26} />
-              </a> */}
-              {/* <a
-                href="https://x.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
-              >
-                <FaXTwitter size={24} />
-              </a> */}
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -67,7 +53,7 @@ class Footer extends React.Component {
                 <FaLinkedinIn size={24} />
               </a>
 
-              <FooterLinkGroup className="md:mt-80 mt-80">
+              <FooterLinkGroup className="md:mt-80 mt-10">
                 <FooterLink
                   href="#"
                   className="text-[#253C6D] md:text-lg font-bold uppercase"
