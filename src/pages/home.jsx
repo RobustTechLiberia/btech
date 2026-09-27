@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
+import $ from "jquery";
 import Nav from "../components/navbar";
 import Banner from "../components/banner";
 import Section from "../components/section";
@@ -11,7 +12,10 @@ import Annoucement from "../components/announcement_section";
 import Notice from "../components/notice";
 import Footer from "../components/footer";
 import { BsWhatsapp } from "react-icons/bs";
-import flyerImage from "../images/1785753214077.jpg";
+import flyer1 from "../images/1785753214077.jpg";
+import flyer2 from "../images/1785753214077.jpg";
+import flyer3 from "../images/1785753214077.jpg";
+import flyer4 from "../images/1785753214077.jpg";
 
 if (typeof window !== "undefined") {
   Modal.setAppElement("body");
@@ -20,10 +24,47 @@ if (typeof window !== "undefined") {
 class Home extends React.Component {
   state = {
     isModalOpen: true,
+    currentImageIndex: 0,
+  };
+
+  images = [flyer1, flyer2, flyer3, flyer4];
+
+  componentDidMount() {
+    this.startImageLoop();
+  }
+
+  componentWillUnmount() {
+    this.stopImageLoop();
+  }
+
+  startImageLoop = () => {
+    this.imageInterval = setInterval(() => {
+      if (!this.state.isModalOpen) return;
+
+      $("#jquery-flyer-image").fadeOut(400, () => {
+        this.setState(
+          (prevState) => ({
+            currentImageIndex:
+              (prevState.currentImageIndex + 1) % this.images.length,
+          }),
+          () => {
+            $("#jquery-flyer-image").fadeIn(400);
+          },
+        );
+      });
+    }, 5000);
+  };
+
+  stopImageLoop = () => {
+    if (this.imageInterval) {
+      clearInterval(this.imageInterval);
+    }
   };
 
   closeModal = () => {
-    this.setState({ isModalOpen: false });
+    this.setState({ isModalOpen: false }, () => {
+      this.stopImageLoop();
+    });
   };
 
   render() {
@@ -97,7 +138,8 @@ class Home extends React.Component {
               &times;
             </button>
             <img
-              src={flyerImage}
+              id="jquery-flyer-image"
+              src={this.images[this.state.currentImageIndex]}
               alt="Promotional Flyer"
               className="w-full h-auto object-contain cursor-pointer max-h-[75vh]"
             />
