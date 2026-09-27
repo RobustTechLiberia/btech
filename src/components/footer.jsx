@@ -40,17 +40,17 @@ class Footer extends React.Component {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
               >
-                {/* <FaInstagram size={26} />
+                <FaInstagram size={26} />
               </a>
-              <a
+              {/* <a
                 href="https://youtube.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
               >
                 <FaYoutube size={26} />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://x.com"
                 target="_blank"
                 rel="noopener noreferrer"

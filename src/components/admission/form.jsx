@@ -27,7 +27,7 @@ class AdmissionForm extends React.Component {
                       type="text"
                       name="firstname"
                       id="firstname"
-                      className="border border-gray-200 py-3 md:w-auto w-90"
+                      className="border border-gray-200 py-3 md:w-auto w-80"
                     />
                   </label>
                 </div>
@@ -43,7 +43,7 @@ class AdmissionForm extends React.Component {
                       type="text"
                       name="middlename"
                       id="middlename"
-                      className="border border-gray-200 py-3 md:w-auto w-90"
+                      className="border border-gray-200 py-3 md:w-auto w-80"
                     />
                   </label>
                 </div>
@@ -59,7 +59,7 @@ class AdmissionForm extends React.Component {
                       type="text"
                       name="lastname"
                       id="last name"
-                      className="border border-gray-200 py-3 md:w-md w-90"
+                      className="border border-gray-200 py-3 md:w-md w-80"
                     />
                   </label>
                 </div>
@@ -72,7 +72,7 @@ class AdmissionForm extends React.Component {
                       type="tel"
                       name="contact"
                       id="contact"
-                      className="border border-gray-200 py-3 md:w-md w-90"
+                      className="border border-gray-200 py-3 md:w-md w-80"
                     />
                   </label>
                 </div>
@@ -85,7 +85,7 @@ class AdmissionForm extends React.Component {
                       type="text"
                       name="address"
                       id="address"
-                      className="border border-gray-200 py-3 md:w-md w-90"
+                      className="border border-gray-200 py-3 md:w-md w-80"
                     />
                   </label>
                 </div>
@@ -94,7 +94,7 @@ class AdmissionForm extends React.Component {
                   <label htmlFor="address" className="capitalize text-gray-800">
                     college <span className="text-red-600">*</span>
                     <br />
-                    <select className="md:w-md w-90 border border-gray-200">
+                    <select className="md:w-md w-80 border border-gray-200">
                       <option
                         value="college"
                         className="hover:bg-[#253C6D] hover:text-white"
@@ -121,7 +121,7 @@ class AdmissionForm extends React.Component {
                   <input
                     type="submit"
                     value="submit"
-                    className="bg-[#253C6D] text-white font-sans uppercase py-4 rounded border-none md:w-md w-90 cursor-pointer"
+                    className="bg-[#253C6D] text-white font-sans uppercase py-4 rounded border-none md:w-md w-80 cursor-pointer"
                   />
                 </div>
               </div>
