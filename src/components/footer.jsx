@@ -22,7 +22,7 @@ class Footer extends React.Component {
         container
         className="bg-white rounded-none shadow-none p-0"
       >
-        <div className="w-full text-center md:h-96 h-auto bg-white">
+        <div className="w-full text-center md:h-96 h-96 bg-white">
           <div className="md:w-auto w-auto bg-white h-auto">
             <div className="w-full md:justify-end lg:justify-end md:items-end lg:items-end bg-white sm:flex sm:items-center sm:justify-between"></div>
 
