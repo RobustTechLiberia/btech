@@ -22,7 +22,7 @@ class Footer extends React.Component {
       <FlowbiteFooter container>
         <div className="w-full text-center md:h-96 h-auto">
           <div className="md:w-auto w-auto bg-white h-auto">
-            <div className="w-full md:justify-end lg:justify-end md:items-end lg:items-end sm:flex sm:items-center sm:justify-between"></div>
+            <div className="w-full md:justify-end lg:justify-end md:items-end lg:items-end bg-white sm:flex sm:items-center sm:justify-between"></div>
 
             {/* social media icons */}
             <div className="flex flex-wrap md:justify-end md:items-end lg:justify-end lg:items-end justify-center items-center gap-3 p-4 bg-white">
@@ -40,7 +40,7 @@ class Footer extends React.Component {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
               >
-                <FaInstagram size={26} />
+                {/* <FaInstagram size={26} />
               </a>
               <a
                 href="https://youtube.com"
@@ -57,7 +57,7 @@ class Footer extends React.Component {
                 className="flex items-center justify-center w-12 h-12 text-white transition-opacity rounded-none bg-[#253C6D] hover:opacity-90"
               >
                 <FaXTwitter size={24} />
-              </a>
+              </a> */}
               <a
                 href="https://linkedin.com"
                 target="_blank"
