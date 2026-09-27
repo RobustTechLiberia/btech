@@ -6,5 +6,5 @@ import flowbiteReact from "flowbite-react/plugin/vite";
 // https://vite.dev
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbiteReact()],
-  base: "/btech/",
+  base: "/",
 });
