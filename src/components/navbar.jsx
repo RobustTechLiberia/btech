@@ -15,11 +15,11 @@ class Nav extends React.Component {
           {/* Logo + University name */}
           <div className="flex flex-nowrap justify-center items-center md:mt-0 mt-5 md:mx-20 mx-5 md:h-20 h-28 bg-white">
             <div className="flex flex-nowrap justify-center items-center h-auto gap-0 bg-white">
-              <div className="w-auto">
+              <div className="md:w-auto w-auto">
                 <img
                   src={logo}
                   alt="Bushrod College Logo"
-                  className="md:w-30 lg:w-32 sm:w-32 w-32 h-auto"
+                  className="md:w-30 lg:w-32 sm:w-32 w-36 h-auto"
                 />
               </div>
 
