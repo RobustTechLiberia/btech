@@ -13,9 +13,9 @@ import Notice from "../components/notice";
 import Footer from "../components/footer";
 import { BsWhatsapp } from "react-icons/bs";
 import flyer1 from "../images/1785753214077.jpg";
-import flyer2 from "../images/1785753214077.jpg";
-import flyer3 from "../images/1785753214077.jpg";
-import flyer4 from "../images/1785753214077.jpg";
+import flyer2 from "../images/1785769541977.jpg";
+import flyer3 from "../images/1785753223455.jpg";
+import flyer4 from "../images/1785753173073.jpg";
 
 if (typeof window !== "undefined") {
   Modal.setAppElement("body");
