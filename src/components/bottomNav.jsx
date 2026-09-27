@@ -22,7 +22,7 @@ class BottomNav extends React.Component {
                 academics
               </a>
             </li>
-            <li className="md:w-20 lg:w-20 md:mx-20 mx-0 lg:mx-20 w-auto">
+            <li className="md:w-20 lg:w-20 md:mx-10 mx-0 lg:mx-10 w-auto">
               <a
                 href="http://"
                 className="font-sans uppercase font-bold md:text-lg lg:text-xl text-xl"
@@ -40,7 +40,7 @@ class BottomNav extends React.Component {
               </a>
             </li>
 
-            <li className="md:w-20 lg:w-20 md:mx-20 mx-0 lg:mx-20 w-auto">
+            <li className="md:w-20 lg:w-20 md:mx-10 mx-0 lg:mx-10 w-auto">
               <a
                 href="http://"
                 className="font-sans uppercase font-bold md:text-lg lg:text-xl text-xl"
