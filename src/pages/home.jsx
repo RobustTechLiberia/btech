@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "react-modal";
 import Nav from "../components/navbar";
 import Banner from "../components/banner";
 import Section from "../components/section";
@@ -10,31 +11,98 @@ import Annoucement from "../components/announcement_section";
 import Notice from "../components/notice";
 import Footer from "../components/footer";
 import { BsWhatsapp } from "react-icons/bs";
+import flyerImage from "../images/1785753214077.jpg";
+
+if (typeof window !== "undefined") {
+  Modal.setAppElement("body");
+}
 
 class Home extends React.Component {
+  state = {
+    isModalOpen: true,
+  };
+
+  closeModal = () => {
+    this.setState({ isModalOpen: false });
+  };
+
   render() {
     return (
       <>
-        <Nav />
-        <Banner />
-        <Section />
-        <UpdateSection />
-        <ContentSection />
-        <MeetFounder />
-        <Accredit />
-        <Annoucement />
-        <Notice />
-        <Footer />
+        <div
+          className={
+            this.state.isModalOpen
+              ? "opacity-40 transition-opacity duration-300"
+              : "opacity-100 transition-opacity duration-300"
+          }
+        >
+          <Nav />
+          <Banner />
+          <Section />
+          <UpdateSection />
+          <ContentSection />
+          <MeetFounder />
+          <Accredit />
+          <Annoucement />
+          <Notice />
+          <Footer />
+        </div>
 
         <a
           href="https://wa.me"
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-10 right-0 mx-20 z-40 p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-200 flex items-center justify-center text-white"
+          className="fixed bottom-10 right-0 md:mx-20 mx-5 z-40 p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-200 flex items-center justify-center text-white"
           style={{ backgroundColor: "#25D366" }}
         >
           <BsWhatsapp size={28} />
         </a>
+
+        <Modal
+          isOpen={this.state.isModalOpen}
+          onRequestClose={this.closeModal}
+          contentLabel="Flyer Presentation"
+          style={{
+            overlay: {
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(0, 0, 0, 0.4)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 9999,
+            },
+            content: {
+              position: "relative",
+              inset: "auto",
+              background: "transparent",
+              padding: "0px",
+              borderRadius: "0px",
+              maxWidth: "512px",
+              width: "91.666667%",
+              maxHeight: "85vh",
+              outline: "none",
+              border: "none",
+            },
+          }}
+        >
+          <div className="relative w-full h-full flex flex-col items-center">
+            <button
+              onClick={this.closeModal}
+              className="absolute -top-12 right-0 text-white bg-gray-800 hover:bg-gray-700 font-bold rounded-full w-8 h-8 flex items-center justify-center text-xl transition-colors duration-200 shadow-lg border border-gray-600"
+            >
+              &times;
+            </button>
+            <img
+              src={flyerImage}
+              alt="Promotional Flyer"
+              className="w-full h-auto object-contain cursor-pointer max-h-[75vh]"
+            />
+          </div>
+        </Modal>
       </>
     );
   }
